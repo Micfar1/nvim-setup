@@ -24,6 +24,7 @@ vim.opt.breakindent = true
 vim.opt.wrap = false -- No Wrap lines
 vim.opt.backspace = { 'start', 'eol', 'indent' }
 vim.opt.path:append { '**' } -- Finding files - Search down into subfolders
+vim.opt.relativenumber = true
 
 -- Tab set to two spaces
 vim.opt.tabstop = 2

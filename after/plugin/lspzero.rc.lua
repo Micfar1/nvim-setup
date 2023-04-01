@@ -8,4 +8,10 @@ local lsp = require('lsp-zero').preset({
   suggest_lsp_servers = false,
 })
 
+lsp.ensure_installed({
+  -- Replace these with whatever servers you want to install
+  'tsserver',
+  'eslint',
+})
+
 lsp.setup()
