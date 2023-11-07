@@ -1,6 +1,4 @@
-# Work in progres
-
-## Windows Setup Steps
+# Windows Setup Steps
 
 1. Open Powershell in Administrator mode.
 2. Install neovim using chocolatey.
