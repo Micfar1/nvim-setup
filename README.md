@@ -39,5 +39,9 @@
    :PackerInstall
    ```
 
-7. Close the powershell and then reopen it.
-8. Go to one of your repo's and open up nvim.
+7. From [Nerd Fonts Website](https://www.nerdfonts.com/font-downloads), download font "Sauce Code Pro".
+8. In the windows explorer, go to the folder where the zip file was downloaded to.
+9. Extract the zip folder and select which font you want to install, then right click that font and click "install".
+10. Go to the powershell properties and under the fonts tab, select the font you installed.
+11. Close the powershell and then reopen it.
+12. Go to one of your repo's and open up nvim.
