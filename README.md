@@ -1,4 +1,4 @@
-# Work in progress
+# Work in progres
 
 ## Windows Setup Steps
 
@@ -23,19 +23,23 @@
 
    ```
    cd ./path-to-folder/
-   git clone <this repo>
+   git clone git@github.com:Micfar1/nvim-setup.git nvim
    ```
    
 5. Using nvim, open up the plugin.lua file.
+
    ```
    nvim ./lua/plugin.lua
    ```
+
 6. Now install those packages using the lua packer plugin.
+
    ```
-   // the nvim command
+   //nvim commands
    :PackerSync
-   // then
+
    :PackerInstall
    ```
+
 7. Close the powershell and then reopen it.
-8. To be continued instructions are a work in progress.
+8. Go to one of your repo's and open up nvim.
