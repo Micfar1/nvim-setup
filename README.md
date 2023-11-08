@@ -1,10 +1,13 @@
 # Windows Setup Steps
 
 1. Install and open up [Windows Terminal](https://apps.microsoft.com/detail/windows-terminal/9N0DX20HK701?hl=en-US&gl=US).
-2. Install neovim using chocolatey.
+2. Install neovim & ripgrep using chocolatey.
+
+**Note:** ripgrep is installed for the best telescope experience. Without it, telescope attempts to search through your `node_modules` folder. 
 
     ```
     choco install neovim
+    choco install ripgrep
     ```
 
 3. Open up nvim and figure out where your nvim config directory is.
