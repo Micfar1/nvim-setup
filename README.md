@@ -1,6 +1,6 @@
 # Windows Setup Steps
 
-1. Open Powershell in Administrator mode.
+1. Install and open up [Windows Terminal](https://apps.microsoft.com/detail/windows-terminal/9N0DX20HK701?hl=en-US&gl=US).
 2. Install neovim using chocolatey.
 
     ```
