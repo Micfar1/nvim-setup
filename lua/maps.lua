@@ -1,5 +1,6 @@
 local keymap = vim.keymap
 
+-- Leader key
 vim.g.mapleader = " "
 
 keymap.set('n', '<leader>pv', vim.cmd.Ex)
@@ -37,3 +38,7 @@ keymap.set('n', '<C-w><left>', '<C-w><')
 keymap.set('n', '<C-w><right>', '<C-w>>')
 keymap.set('n', '<C-w><up>', '<C-w>+')
 keymap.set('n', '<C-w><down>', '<C-w>-')
+
+-- Map
+vim.g.copilot_assume_mapped = true
+vim.api.nvim_set_keymap('i', '<Tab>', 'copilot#Accept("<CR>")', {silent = true, expr = true})
